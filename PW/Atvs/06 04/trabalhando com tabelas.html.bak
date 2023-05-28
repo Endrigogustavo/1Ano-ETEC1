@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+<meta charset="utf-8"> <!--configura acentuação no site-->
+<title>tabelas</title>
+
+</head>
+
+<body>
+<h1> trabalhando com tabela</h1>
+<table border=1  cellpadding=100 cellspacing=100>
+ <tr>
+    <th> nome  </th><th>cidade </th><th>estado</th>
+ </tr>
+ <tr>
+ <td>joão pessoa</td><td>bromélia</td><th>sao paulo</th>
+ <tr>
+ <td>tida paloma</td><td>cabralia</td><td>rio de janeiro<td>
+ <!--td>
+<!--Th é o titulo da tabela -->
+
+
+</table>
+
+</body>
+
+</html>

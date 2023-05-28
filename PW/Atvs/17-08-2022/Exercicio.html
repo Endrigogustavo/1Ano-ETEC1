@@ -1,0 +1,44 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Verificar</title>
+    </head>
+	
+    <script language="javascript">
+        function verificar(num1, num2)
+        {
+         
+         if(parseInt(num1.value)==parseInt(num2.value))
+         {
+            alert("Quadrado");  
+            
+         }
+         else
+         {
+            alert("retangulo")
+         }
+                
+        }
+    
+    </script>
+
+	<body>
+        <br>
+<center><h1>positivo ou negativo</h1></center>
+        <form name="numero">
+           
+            Numero 1: <input type="text" name="num1">
+            
+
+            <br> <br>
+            Numero 2: <input type="text" name="num2">
+            
+
+            <br> <br>
+            <input type="submit"  value="verificar" onclick='verificar(num1, num2)'>
+          </form>
+
+	
+	</body>
+
+</html>

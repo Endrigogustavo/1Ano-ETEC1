@@ -1,0 +1,46 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>radio</title>
+    </head>
+   
+<body>
+
+    <script>
+        function mudarcor(cor)
+        {
+            switch (cor)
+            {
+                case 'amarelo': document.bgColor='yellow'; break;
+                case 'azul': document.bgColor='blue'; break;
+                case 'ciano': document.bgColor='cyan'; break;
+                case 'verde': document.bgColor='green'; break;
+                case 'vermelho': document.bgColor='red'; break;
+                case 'padrao': document.bgColor='white'; break;
+                
+            }
+        }
+    </script>
+    <br>
+    <center><h1>Calculo do dobro</h1></center>
+     <br> <br>
+
+
+    <!--formulario-->
+  <form name="formulario">
+      <b><i>Selecione uma cor para fundo:</i></b>
+      <br> <br>
+
+   <input type="radio" name="fundo" onchange="mudarcor('amarelo')">amarelo <br>
+   <input type="radio" name="fundo" onchange="mudarcor('azul')">azul <br>
+   <input type="radio" name="fundo" onchange="mudarcor('ciano')">ciano <br>
+   <input type="radio" name="fundo" onchange="mudarcor('verde')">verde <br>
+   <input type="radio" name="fundo" onchange="mudarcor('vermelho')">vermelho <br>
+   <input type="radio" name="fundo" onchange="mudarcor('padrao')">padrao <br>
+    
+    
+  </form>
+	
+</body>
+
+</html>

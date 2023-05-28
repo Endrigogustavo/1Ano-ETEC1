@@ -1,0 +1,43 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Salario</title>
+    </head>
+	
+    <script language="javascript">
+        function calcular(bn, vh, ht, nd)
+        {
+          
+          sb=parseFloat(vh.value)*parseFloat(ht.value);
+          sl=parseFloat(bn.value)*parseFloat(nd.value) + sb;
+          document.write("salario bruto = "+sb+ " salario liquido = "+sl);
+
+
+
+
+
+        }
+    
+    </script>
+
+	<body>
+
+        <form name="calculo">
+             digite a sua bonificaçao:<input type="text" name="bn" >
+            <br> <br> 
+            
+             Digite o valor da hora:<input type="text" name="vh" >
+            <br> <br> 
+             Digite a quantidade de horas trabalhadas:<input type="text" name="ht" >
+            <br> <br> 
+             Digite o numero de dependentes:<input type="text" name="nd" >
+            <br> <br> 
+           
+            
+            <input type="submit"  value="calcular" onclick='calcular(bn, vh, ht, nd)'>
+          </form>
+
+	
+	</body>
+
+</html>

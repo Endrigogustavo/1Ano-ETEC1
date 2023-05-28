@@ -1,0 +1,120 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+    </head>
+	
+    <script language="javascript">
+        function verificar(sa, cod)
+        {
+        
+
+        {
+        if(parseInt(cod.value)==1)
+
+         {
+           
+             re = (parseFloat(sa.value)/100)*5 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+         }
+         else
+         {
+            if(parseInt(cod.value)==2)
+
+         {
+            re = (parseFloat(sa.value)/100)*10 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+    
+   
+         }
+          else
+         {
+            if(parseInt(cod.value)==3)
+
+{
+    re = (parseFloat(sa.value)/100)*15 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+    
+   
+}
+else
+{
+    if(parseInt(cod.value)==4)
+
+{
+    re = (parseFloat(sa.value)/100)*20 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+    
+   
+}
+else
+{
+    if(parseInt(cod.value)==5)
+
+{
+    re = (parseFloat(sa.value)/100)*25 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+    
+   
+}
+else
+{
+    if(parseInt(cod.value)==6)
+
+{
+    re = (parseFloat(sa.value)/100)*30 ;
+            san = parseFloat(sa.value)+re ;
+            alert(san);
+    
+   
+}
+else
+{
+    if(parseInt(cod.value)>6)
+
+{
+  alert("Codigo Invalido");
+    
+   
+}
+else
+{
+   
+}
+}
+}
+}
+}
+         }
+         }
+                
+        }
+        
+        }
+    
+    </script>
+
+	<body>
+        <br>
+<center><h1>Salario</h1></center>
+        <form name="numero">
+           
+            
+
+            <br> <br>
+            salario: <input type="text" name="sa">
+            <br> <br>
+            codigo: <input type="text" name="cod">
+           
+            <input type="submit"  value="verificar" onclick='verificar(sa, cod)'>
+          </form>
+
+	
+	</body>
+
+</html>

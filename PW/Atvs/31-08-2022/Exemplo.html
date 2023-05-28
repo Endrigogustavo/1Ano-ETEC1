@@ -1,0 +1,53 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>radio</title>
+    </head>
+   
+<body>
+
+    <script>
+        function verificar(an)
+        {
+            
+            switch (parseInt(an.value))
+            {
+                case 1: alert("janeiro"); break;
+                case 2: alert("fevereiro"); break;
+                case 3: alert("maeço"); break;
+                case 4: alert("abril"); break;
+                case 5: alert("maio"); break;
+                case 6: alert("junho"); break;
+                case 7: alert("julho"); break;
+                case 8: alert("agosto"); break;
+                case 9: alert("setembro"); break;
+                case 10: alert("outubro"); break;
+                case 11: alert("novembro"); break;
+                case 12: alert("desembro"); break;
+               
+                default:{ alert("resposta invalida");}
+                
+            }
+        }
+    </script>
+    <br>
+    <center><h1>Calculo do dobro</h1></center>
+     <br> <br>
+
+
+    <!--formulario-->
+  <form name="formulario">
+      <b><i>Selecione uma cor para fundo:</i></b>
+      <br> <br>
+
+      codigo: <input type="text" name="an">
+<br>
+   <input type="submit"  value="verificar" onclick='verificar(an)'>
+   
+    
+    
+  </form>
+	
+</body>
+
+</html>

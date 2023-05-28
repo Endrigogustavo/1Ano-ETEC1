@@ -1,0 +1,38 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Area</title>
+    </head>
+	
+    <script language="javascript">
+        function calcular(bs, al)
+        {
+         
+          ar=parseInt(bs.value)*parseInt(al.value);
+          
+          document.write("area = "+ar);
+
+
+
+
+
+        }
+    
+    </script>
+
+	<body>
+
+        <form name="calculo">
+            Digite a base e a altura retangulo: <input type="text" name="bs" >
+            <br> <br> 
+            Digite a base e a altura retangulo: <input type="text" name="al">
+            
+
+            <br> <br>
+            <input type="submit"  value="calcular" onclick='calcular(bs, al)'>
+          </form>
+
+	
+	</body>
+
+</html>

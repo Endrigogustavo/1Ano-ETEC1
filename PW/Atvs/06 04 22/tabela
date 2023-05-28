@@ -1,0 +1,34 @@
+<html>
+
+<head>
+<meta charset="utf-8"> <!--configura acentuação no site-->
+<title>tabelas</title>
+</head>
+<body bgcolor="grey"Text="white">
+<h1>Minha primeira tabela</h1>
+<table borde="12" bordercolor="orange">
+<tr>
+<th> comida  </th> 
+<th>pais </th>
+<th>ingredientes</th>
+ </tr>
+ <tr>
+ <td>lámen</td>
+ <td>japão</td>
+ <th>macarrão de arroz>
+ <tr>
+ <td>feijoada</td>
+<td>Brasil</td>
+<td>feijão preto<td>
+ <!--td>
+<!--Th é o titulo da tabela -->
+
+
+
+
+
+</table>
+
+</body>
+
+</html>

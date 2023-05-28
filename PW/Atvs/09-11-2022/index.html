@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function validaform()
+        {
+        dados = document.cadastro;
+
+        if(dados.nomecompleto.value=="")
+         {
+             alert("O campo "+ dados.nomecompleto.name + " deve ser preechido!");
+             dados.nomecompleto.focus();
+             return false
+         }
+         else
+            if(dados.nomecompleto.value.length<9)
+            {
+                alert("O campo "+ dados.nomecompleto.name + " deve ser preechido corretamente!");
+             dados.nomecompleto.focus();
+             return false
+            }
+
+            if(dados.assunto.value=="")
+            {
+                alert("O campo "+ dados.assunto.name + "deve ser preechido!");
+             dados.assunto.focus();
+             return false
+            }
+
+            if(dados.email.value=="" || dados.email.value.indexOf("@")==-1 || dados.email.value.indexOf(".")==-1)
+            {
+                alert("O campo "+ dados.email.name + " deve ser preechido corretamente!");
+             dados.email.focus();
+             return false
+            }
+        }
+    </script>
+
+    <style>
+        h1
+        {
+            font-size: 4rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+       .ponto{
+           position: relative;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 3vh;
+       }
+       .opa1{
+           width: 50%;
+           height: 3vh;
+       }
+       .opa2{
+           width: 40%;
+           height: 3vh;
+       }
+       .opa3{
+           width: 30%;
+           height: 3vh;
+       }
+       .opa4{
+           width: 7%;
+           height: 4vh;
+       }
+       .opa5{
+           width: 7%;
+           height: 4vh;
+       }
+       
+    </style>
+</head>
+<body>
+
+
+    <h1><center>Fale conosco</center></h1> <br> <br>
+
+<div class="ponto">
+    <form name="cadastro" onsubmit="return validaform()" method="post">
+        <label for="nomecopleto" title="Informe o nome completo">
+            Nome <font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text"  class="opa1"name="nomecompleto" maxlength="50" size="50"><br><br>
+
+        <label for="assunto" title="Informe o assunto">
+            Assunto<font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text" class="opa2" name="assunto" maxlength="30" size="30"><br><br>
+        
+        <label for="email" title="Informe o email">
+            E-mail<font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text" class="opa3" name="email"><br><br>
+
+        <input type="submit" class="opa4" name="enviar" value="enviar">
+        <input type="reset" class="opa5" name="limpar">
+    
+    </form>
+</div>
+</body>
+</html>

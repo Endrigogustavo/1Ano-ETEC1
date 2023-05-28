@@ -1,0 +1,38 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Bonificação</title>
+    </head>
+	
+    <script language="javascript">
+        function calcular(dp)
+        {
+          
+          s1=parseFloat(dp.value)/100+parseFloat(dp.value);
+          s2=s1/100+s1;
+          s3=s2/100+s2
+          document.write("salde é de "+s3);
+
+
+
+
+
+        }
+    
+    </script>
+
+	<body>
+
+        <form name="calculo">
+             digite a sua bonificaçao:<input type="text" name="dp" >
+            <br> <br> 
+            
+             
+            
+            <input type="submit"  value="calcular" onclick='calcular(dp)'>
+          </form>
+
+	
+	</body>
+
+</html>

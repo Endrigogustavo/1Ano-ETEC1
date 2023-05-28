@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        } 
+        input.d{
+            
+            width: 200px;
+            height: 20px;
+
+        }
+    </style>
+
+    <script type="text/javascript">
+      
+      var cont;
+        //pode usar var no lugar de const
+        function ver(dia)
+        {
+        var semana = [];
+       // var dia1 =parseInt(dia.value)-1;
+     semana[0]=" Domingo";
+     semana[1]=" Terça";
+     semana[2]=" Quarta";
+     semana[3]=" Quinta";
+     semana[4]=" Sexta";
+     semana[5]=" Sabado";
+     semana[6]=" Segunda";
+     if (dia.value<1 || dia.value>7)
+        alert("invalido")
+        else
+
+    alert(semana[parseInt(dia.value)-1]);
+
+    }
+    </script>
+</head>
+<body>
+    
+   <center>
+    <form name="vetor">
+        <h1>Digite o numero do dia da semana</h1>
+        <input type="text" name="dia" class="d">
+        <br> <br>
+        <input type="submit" value="verificar" onclick="ver(dia)">
+        <br> <br> 
+        <input type="reset" value="Limpar">
+    </form>
+    </center>
+</body>
+</html>

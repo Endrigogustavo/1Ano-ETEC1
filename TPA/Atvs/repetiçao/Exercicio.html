@@ -1,0 +1,51 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+        <title>Aula HTML</title>
+     <style>
+         body{
+             text-align: center;
+             font-size: 4vh;
+         }
+     </style>
+
+    </head>
+
+	<body>
+        <style>
+         
+
+        </style>
+        <script type="text/javascript">
+            //Estrutura de repetiçao - do
+            //contando de 0 a 10
+            function verificar(num1){
+            var res, i;
+            i = 0;
+            
+            while (i<11)
+            {
+                
+                res =i * parseInt(num1.value);
+                document.write(parseInt(num1.value)," * ",i," = ", res,"<br>");
+                i = i + 1;
+
+            }
+           }
+        </script>
+        <br>
+
+        <form name="numero">
+           
+            Numero 1: <input type="text" name="num1">
+            
+
+            <br> <br>
+            
+
+            <br> <br>
+            <input type="submit"  value="verificar" onclick='verificar(num1)'>
+          </form>
+	</body>
+
+</html>

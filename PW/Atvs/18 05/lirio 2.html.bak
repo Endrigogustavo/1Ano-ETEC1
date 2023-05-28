@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+<title>figura 1</title>
+</head>
+<body>
+<center><font face="arial, vedana" size="5" color="#8B4513"> TRABALHANDO COM IMAGENS</FONT></CENTER>
+<br><br><br>
+
+<!--inserindo a imagens-->
+
+<center><font face="arial, vedana" size="3" color="#0000FF"> inserindo a imagem</FONT></CENTER>
+<center>Img src ="lirio"--- pode-se colocar o laocal onde a imagem está.</center>
+<br><br><br>
+
+
+<img src="lírio.JPG">
+
+<!--Tamanho da imagens-->
+<center><font face="arial, verdana" size="3" color="#0000FF"> inserindo a imagem</FONT></CENTER>
+<center>widthh para largura e height para altura</center>
+<br><br><br>
+
+<img src="lírio.jpg"width="50" height="100">
+
+
+
+<!--Borda na imagem-->
+<center><font face="arial, verdana" size="3" color="#0000FF"> inserindo a imagem</FONT></CENTER>
+<center>border= "numero da espessura da borda"<center> e geight para altura</center>
+<br><br><br>
+
+<img src="lírio.jpg" border="20">
+
+
+<!--Texto Alternativo na imagens-->
+<center><font face="arial, verdana" size="3" color="#0000FF"> inserindo a imagem</FONT></CENTER>
+<center>alt= "texto" --> este irá aparecer quqando a imagem puder ser exibida"<center> 
+<br><br><br>
+
+<img src="lírio.jpg" alt = "lirio - linda flor">
+
+
+<!--alinhamento a imagem-->
+<center><font face="arial, verdana" size="3" color="#0000FF"> alinhamento a imagem</FONT></CENTER>
+<img src="lírio.jpg" align="right">
+O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao clicar em Vídeo Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode digitar uma palavra-chave para pesquisar online o vídeo mais adequado ao seu documento.
+Para dar ao documento uma aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra lateral correspondentes. Clique em Inserir e escolha os elementos desejados nas diferentes galerias.
+Temas e estilos também ajudam a manter seu documento coordenado. Quando você clica em Design e escolhe um novo tema, as imagens, gráficos e elementos gráficos SmartArt são alterados para corresponder ao novo tema. Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
+Economize tempo no Word com novos botões que são mostrados no local em que você precisa deles. Para alterar a maneira como uma imagem se ajusta ao seu documento, clique nela e um botão de opções de layout será exibido ao lado. Ao trabalhar em uma tabela, clique no local onde deseja adicionar uma linha ou uma coluna e clique no sinal de adição.
+
+
+
+<br><br><br>
+
+
+
+
+
+</body>
+</html>

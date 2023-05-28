@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        } 
+        input.d{
+            
+            width: 200px;
+            height: 20px;
+
+        }
+    </style>
+
+    <script type="text/javascript">
+      
+      var cont;
+        //pode usar var no lugar de const
+        function ver(login,senha)
+        {
+        var log = [];
+        var sen = [];
+       
+        
+       
+
+     log[0]="Endrigo";
+     log[1]="Maria";
+     log[2]="Gabriel";
+
+
+     sen[0]="12345";
+     sen[1]="54321";
+     sen[2]="12543";
+     
+     if (login.value == log[0] && senha.value == sen[0] || login.value == log[1] && senha.value == sen[1] || login.value == log[2] && senha.value == sen[2]){
+         document.write("<br><br><center><a href='top.html'><img src='c.png' width='360' height='360' </a></center>");;
+        
+     }else{
+        alert("foi nao")
+     }
+       
+
+   
+
+    }
+    </script>
+</head>
+<body>
+  
+    
+   <center>
+    <form name="vetor">
+        <h1>Digite o numero do dia da semana</h1>
+        <input type="text" name="login" class="d">
+        <br> <br>
+        <input type="text" name="senha" class="d">
+        <br> <br>
+        <input type="submit" value="verificar" onclick="ver(login,senha)">
+        <br> <br> 
+        <input type="reset" value="Limpar">
+    </form>
+    </center>
+</body>
+</html>
